@@ -122,8 +122,8 @@ return [
         ],
     ],
     'stockalerts'          => [
-        'title'          => 'Stock Alerts',
-        'title_singular' => 'Stock Alert',
+        'title'          => 'Stock Audits',
+        'title_singular' => 'Stock Audit',
         'fields'         => [
             'id'                   => 'ID',
             'id_helper'            => '',

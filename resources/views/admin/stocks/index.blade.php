@@ -1,21 +1,6 @@
 @extends('layouts.admin')
 @section('content')
 
-<?php
-    // $ambildatastock = mysqli_query($conn."select * from stocks where current_stock < 1");
-
-    // while($fecth=mysqli_fetch_array($ambildatastock)){
-    //     $barang = $fecth['asset_id']
-    
-?>
-<div class="alert alert-danger alert-dismissible">
-    <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <strong>Perhatian!</strong> Stock barang x Telah Habis
-  </div>
-<?php
-    // }
-?>
-
 @can('stock_create')
     <div style="margin-bottom: 10px;" class="row">
         <div class="col-lg-12 mt-2">
