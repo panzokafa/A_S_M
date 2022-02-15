@@ -71,7 +71,7 @@
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                         <input type="hidden" name="action" value="add">
                                         <input type="number" name="stock" class="form-control form-control-sm col-4" min="1">
-                                        <input type="submit" class="btn btn-xs btn-danger" value="ADD">
+                                        <input type="submit" class="btn btn-xs btn-success" value="ADD">
                                     </form>
                                 </td>
                                 <td>
